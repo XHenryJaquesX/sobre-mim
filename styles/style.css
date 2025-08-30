@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@100..900&display=swap');
+
+:root
+{
+    --cor-fundo: #0F0E0E;
+    --cor-fonte: #EEEEEE;
+    --cor-detalhes: #468A9A;
+    --cor-hover: #541212;
+
+    --fonte-primaria: "Krona One", sans-serif;
+    --fonte-secundaria: "Montserrat", sans-serif;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    box-sizing: border-box;
+    background-color: var(--cor-fundo);
+    color: var(--cor-fonte);
+}
+
+.cabecalho
+{
+    padding: 2% 0 0 15%;
+}
+
+.cabecalho__menu
+{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link
+{
+    color: var(--cor-detalhes);
+    font-family: var(--fonte-secundaria);
+    font-weight: 600;
+    font-size: 24px;
+    text-decoration: none;
+}
+.cabecalho__menu__link:hover
+{
+    text-decoration: underline;
+}
+
+.apresentacao
+{
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo
+{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo
+{
+    font-family: var(--fonte-primaria);
+    font-size: 36px;
+}
+
+.destaque-titulo
+{
+    color: var(--cor-detalhes);
+}
+
+.apresentacao__conteudo__paragrafo
+{
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.apresentacao__links
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__links__link
+{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 378px;
+    text-align: center;
+    border: 2px solid var(--cor-detalhes);
+    border-radius: 36px;
+    font-size: 24px;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: var(--cor-fonte);
+    font-family: var(--fonte-secundaria);
+    font-weight: 600;
+}
+
+.apresentacao__links__link:hover
+{
+    background-color: var(--cor-hover);
+}
+
+.apresentacao__links__subtitulo
+{
+    font-family: var(--fonte-primaria);
+    font-size: 24px; 
+}
+
+.rodape
+{
+    color: var(--cor-fundo);
+    background-color: var(--cor-detalhes);
+    text-align: center;
+    padding: 23.64px;
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.rodape__link
+{
+    color: var(--cor-fundo);
+    text-decoration: none;
+}
+
+.rodape__link:hover
+{
+    text-decoration: underline;
+}
